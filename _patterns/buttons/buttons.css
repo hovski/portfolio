@@ -1,0 +1,15 @@
+.btn {
+  background-color: var(--color-white);
+  border-color: var(--color-black);
+  color: var(--color-black);
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color: var(--color-black);
+  border-color: var(--color-black);
+  color: var(--color-white);
+  border-radius: 0;
+  font-weight: bold;
+}

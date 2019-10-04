@@ -9,7 +9,7 @@ patternbot:
     background: "--color-primary-pair"
     accent: "--color-primary"
     patterns:
-      brand.logos: "--color-primary"
+      brand.logos: "--color-primary-pair"
   rationales:
     typefaces.primary: |
       Poppins was selected because of it's strong/clean geometric feel. Poppins is to be used for all body copy and all situations.
@@ -20,3 +20,21 @@ patternbot:
       - On "About" page - use primary color as the background color of: Footer.
       - On "Contact" page - use primary color for the background color of: Footer.
       - On "Selected Project" page - use primary color for the background color of: Footer.
+
+      The primary pair color will be used mainly for background colors and text when placed on a darker background.
+    colors.secondary: |
+      The secondary color will be mainly used for heading font colors and also body copy in different websites areas.
+
+      - On "About" page - use seconday color for text color of: Left hand headers + bold list title.
+    colors.tertiary: |
+      The tertiary color will only be used for grid background colors if needed. Never use as text color.
+    colors.accent: |
+      The accent colors will be used for various things.
+
+      - The Focus page color will be used only on hover or accessibility tabbing.
+      - The White color will be used only as a font color on darker backgrounds.
+      - The Black color will be used for some font colors and also for buttons.
+      - The Grey color will be used on almost all of the body copy within the website.
+  layouts:
+    defaults: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
