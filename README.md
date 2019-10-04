@@ -2,7 +2,7 @@
 
 #### [hov.ski](https://hov.ski)
 
-![] (hovski.svg)
+![] (logo.svg)
 
 I am a graphic designer + photographer.
 

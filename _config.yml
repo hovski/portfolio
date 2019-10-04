@@ -1,3 +1,22 @@
 permalink: pretty
-
 theme: jekyll_patternbot
+patternbot:
+  title: "Hovski"
+  description: |
+    This is my personal website that will be dedicated to all design things.
+  font_url: "https://fonts.googleapis.com/css?family=Montserrat:600,800,900|Poppins:500,700&display=swap"
+  colors:
+    background: "--color-primary-pair"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-primary"
+  rationales:
+    typefaces.primary: |
+      Poppins was selected because of it's strong/clean geometric feel. Poppins is to be used for all body copy and all situations.
+    colors.primary: |
+      The primary color will mainly be used for background colors for headers and footers. It can sometimes be used as a text color.
+
+      - On "Index" page - use primary color for the background of: Work header & Footer.
+      - On "About" page - use primary color as the background color of: Footer.
+      - On "Contact" page - use primary color for the background color of: Footer.
+      - On "Selected Project" page - use primary color for the background color of: Footer.
