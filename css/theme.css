@@ -1,7 +1,7 @@
 :root {
   --color-primary: #333333;
   --color-primary-pair: #F2F2F2;
-  --color-primary-opacity: rgba(242, 242, 242, .9);
+  --color-primary-opacity: rgba(242, 242, 242, .8);
   --color-secondary: #606060;
   --color-tertiary: #AFAFAF;
   --color-focus-page: #F0A734;
@@ -45,6 +45,7 @@ p {
   color: var(--color-secondary);
   font-family: var(--font-primary);
   font-weight: 500;
+  font-variant: normal;
 }
 
 a {
