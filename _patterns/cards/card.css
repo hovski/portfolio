@@ -1,4 +1,4 @@
-.main-card:hover .card-content::before {
+a.main-card:hover .card-content::before {
   content: " ";
   display: block;
   position: absolute;
