@@ -1,0 +1,14 @@
+title: "Buttons"
+description: |
+  The buttons use our primary colour to draw attention and stand out. Each button has a specific purpose:
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      These are the only buttons that will be used on the website. They're used in the navigation. If another button is to ever be used, use this one.
+    background: "--color-primary"
+  icon-btn:
+    title: "Icon-Btn"
+    description: |
+      This button has a chevron icon inside the button. This button only exists, so users can go back to the mainpage inside of a portfolio piece.
+    background: "--color-secondary"

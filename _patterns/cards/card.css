@@ -26,3 +26,7 @@ a.main-card:hover .card-content::before {
 .cardfocus:focus {
   outline: 3px solid var(--color-focus-page);
 }
+
+.bkgcolor-1 {
+  background-color: var(--color-primary-pair);
+}
