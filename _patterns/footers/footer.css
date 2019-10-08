@@ -1,0 +1,25 @@
+.grey-bkg {
+  background-color: var(--color-primary);
+  color: var(--color-primary-pair);
+}
+
+.white-text {
+  color: var(--color-primary-pair);
+  font-weight: light;
+}
+
+.pad-l-icon {
+  padding-left: 5px;
+}
+
+.pad-r-icon {
+  padding-right: 5px;
+}
+
+.ltn-svg {
+  fill: var(--color-primary-pair);
+}
+
+.ltn-vg:hover {
+  fill: var(--color-tertiary);
+}
