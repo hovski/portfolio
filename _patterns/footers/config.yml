@@ -1,0 +1,8 @@
+title: "Footer"
+description: |
+  The footers are used at the bottom of the website to navigate the user to see social media resourses.
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      The footer will always be placed at the bottom of every single webpage. Regardless of where they're navigated to. The footer will always have social media links and my contact link to email me for personal work.

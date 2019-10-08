@@ -1,0 +1,8 @@
+title: "Header"
+description: |
+  The header will always remain at the top of the webpage — for all webpages. It contains the nav, that will direct the user to different destinations of my website.
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The header will always be placed at the top of every single webpage. Regardless of where they're navigated to. The footer will always remain there, and have a transparent background.

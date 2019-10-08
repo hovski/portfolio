@@ -1,0 +1,8 @@
+title: "Navigation"
+description: |
+  The navigations will always remain at the top of the webpage — for all webpages. The navigation will always be placed inside the header - and the header will always remain transparent.
+patterns:
+  navigation:
+    title: "The Nav"
+    description: |
+      Keep the navigations inside the header. The nav should always remain on the left hand side, inside the header as well.

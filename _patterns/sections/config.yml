@@ -1,0 +1,17 @@
+title: "Sections"
+description: |
+  Sections should remain on the About page. The only exception to this rule, would be the image-section. No other reason.
+patterns:
+  text-list-sections:
+    title: "Listed Content"
+    description: |
+      This content will remain on the About Me page. It's a section, containing a list. The list is to explain my strengths as a designer. No other lists are needed on my website.
+  text-sections:
+    title: "Text Content"
+    description: |
+      This will also only ever be on my About page. Generally it will be stacked BEFORE listed content. This will be my Bio content.
+  image-section:
+    title: "Image of Content"
+    description: |
+      This will also only ever be on my About page. It takes up half the width of the page. It will remain on the right hand side. All other sections are placed to the left of it, stacked as mentioned previously.
+    background: "--color-primary"
