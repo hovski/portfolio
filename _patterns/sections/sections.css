@@ -6,3 +6,7 @@
 .br-btm {
   border-bottom: 3px solid var(--color-tertiary);
 }
+
+.darkgrey-text {
+  color: var(--color-primary);
+}

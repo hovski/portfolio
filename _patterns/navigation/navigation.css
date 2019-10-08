@@ -1,3 +1,7 @@
 .nav-links {
   text-decoration: none;
 }
+
+.transparent {
+  background-color: transparent;
+}
