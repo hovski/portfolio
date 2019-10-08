@@ -13,3 +13,11 @@
   border-radius: 0;
   font-weight: bold;
 }
+
+.icon-push {
+  padding-right: 5px;
+}
+
+.btn:focus {
+  outline: 3px solid var(--color-focus-page);
+}
