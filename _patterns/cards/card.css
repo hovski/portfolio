@@ -1,4 +1,4 @@
-a.main-card:hover::before {
+a.main-card:hover {
   content: " ";
   display: block;
   position: absolute;
@@ -13,7 +13,7 @@ a.main-card:hover::before {
   visibility: hidden;
 }
 
-.main-card:hover .card-content {
+.main-card:hover .card-content:hover {
   visability: visible;
 }
 
