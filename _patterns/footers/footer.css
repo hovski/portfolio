@@ -20,6 +20,8 @@
   fill: var(--color-primary-pair);
 }
 
-.ltn-vg:hover {
+.ltn-svg:hover {
   fill: var(--color-tertiary);
+  transform: scale(0.09);
+  transition: all 150ms linear;
 }
