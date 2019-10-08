@@ -13,8 +13,8 @@ a.main-card:hover {
   visibility: hidden;
 }
 
-.main-card:hover .card-content:hover {
-  visability: visible;
+.card-content:hover {
+  visibility: visible;
 }
 
 .cardfocus:focus {
