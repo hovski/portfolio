@@ -2,3 +2,7 @@
   background-color: var(--color-primary);
   color: var(--color-primary-pair);
 }
+
+.banner-height {
+  height: 100%;
+}
