@@ -14,13 +14,15 @@ a.main-card:hover .card-content::before {
 }
 
 .card-content {
-  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s linear;
   width: 100%;
   height: 100%;
 }
 
 .main-card:hover .card-content {
-  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s linear;
 }
 
 .cardfocus:focus {
