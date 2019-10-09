@@ -21,7 +21,7 @@
 }
 
 .ltn-svg:hover {
-  fill: var(--color-tertiary);
+  fill: var(--color-white);
   transform: scale(1.05);
   transition: all 150ms linear;
 }
