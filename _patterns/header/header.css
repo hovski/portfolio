@@ -1,3 +1,8 @@
 .transparent {
   background-color: transparent;
 }
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+}

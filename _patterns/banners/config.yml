@@ -6,9 +6,17 @@ patterns:
     title: "Main-Banner"
     description: |
       This will be the standard banner that will always appear at the top of the page. The navigation/header will be ontop of this (transparently).
+    fields:
+    - name: image
+      type: string
+      example: "placeholder-img.jpg"
   banner-header:
     title: "Banner-header"
     description: |
       This banner will be placed ontop of all grids within the website. On the main page, it will be used as a divider called, "Work".
 
       This will also be used on my Works pages, above the grid displaying the mockups + text content. The name will change and be labeled whatever the artwork is called.
+    fields:
+    - name: text
+      type: string
+      example: "Work"
