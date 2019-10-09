@@ -13,5 +13,5 @@ patterns:
   image-section:
     title: "Image of Content"
     description: |
-      This will also only ever be on my About page. It takes up half the width of the page. It will remain on the right hand side. All other sections are placed to the left of it, stacked as mentioned previously.
+      This will also only ever be on my About page. It takes up half the width of the page. It will remain on the right hand side. All other sections are placed to the left of it, stacked as mentioned previously. Image has to be 1920x1920 in dimensions.
     background: "--color-primary"
