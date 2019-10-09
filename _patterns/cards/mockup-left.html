@@ -1,10 +1,10 @@
-<div class="grid grid-middle bkgcolor-1">
+<div class="grid grid-middle {{include.color}}">
   <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
     <div class="embed embed-16by9">
-      <img class="img-flex embed-item" src="/images/placeholder-img.jpg" alt="image of mockup">
+      <img class="img-flex embed-item" src="/images/{{include.image}}" alt="image of mockup">
     </div>
   </div>
   <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-    <p class="text-left push-0 gutter micro">Add text that supports the content to the left of it (Most likely a mockup or image relating to topic.)</p>
+    <p class="text-left push-0 gutter micro">{{include.text}}</p>
   </div>
 </div>

@@ -20,3 +20,6 @@ patterns:
     - name: text
       type: string
       example: "Work"
+    - name: id
+      type: string
+      example: "work"

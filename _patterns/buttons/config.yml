@@ -7,6 +7,13 @@ patterns:
     description: |
       These are the only buttons that will be used on the website. They're used in the navigation. If another button is to ever be used, use this one.
     background: "--color-primary"
+    fields:
+    - name: text
+      type: string
+      example: "WORK"
+    - name: url
+      type: url
+      example: "#"
   icon-btn:
     title: "Icon-Btn"
     description: |

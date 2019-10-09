@@ -25,3 +25,7 @@
 .pad-r-1-2 {
   padding-right: 15px;
 }
+
+.icon-btn img, .icon-btn svg {
+  fill: var(--color-black);
+}

@@ -7,13 +7,68 @@ patterns:
     description: |
       These cards are only on the index page. They're cards that display my portfolio pieces, with a hover explination to what the piece is.
     background: "--color-primary"
+    fields:
+    - name: text
+      type: string
+      example: "Title work"
+    - name: description
+      type: string
+      example: "Description of work"
+    - name: url
+      type: url
+      example: "#"
+    - name: image
+      type: string
+      example: "placeholder-img.jpg"
   mockup-left:
     title: "Mockup Left"
     description: |
       This card was made so that there would be an image on the left (could be a mockup or an image for branding purposes) + text on the right. This card spans the full width of the page, with 2 units side by side.
     background: "--color-secondary"
+    fields:
+    - name: text
+      type: string
+      example: "Talk about the image on the right."
+    - name: image
+      type: string
+      example: "placeholder-img.jpg"
+    - name: color
+      type: string
+      example: "bkgcolor-1"
   mockup-right:
     title: "Mockup Right"
     description: |
       This card was made so that there would be an image on the right (could be a mockup or an image for branding purposes) + text on the left. This card spans the full width of the page, with 2 units side by side.
     background: "--color-primary"
+    fields:
+    - name: text
+      type: string
+      example: "Talk about the image on the left."
+    - name: image
+      type: string
+      example: "placeholder-img.jpg"
+    - name: color
+      type: string
+      example: "bkgcolor-1"
+  fullimage-card:
+    title: "Full Image card"
+    description: |
+      This card is a full size image of the screen. Images will be 1080x810 in this case.
+    fields:
+    - name: text
+      type: string
+      example: "Talk about the image on the right."
+    - name: image
+      type: string
+      example: "placeholder-img.jpg"
+  typeface-card:
+    title: "Typeface banner"
+    description: |
+      This card is 3by1 in height. So its more slender and lets me put my typeface banner or images of the dimension of 1080x360.
+    fields:
+    - name: text
+      type: string
+      example: "Talk about the image on the right."
+    - name: image
+      type: string
+      example: "placeholder-img.jpg"

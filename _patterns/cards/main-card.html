@@ -1,10 +1,11 @@
 <div class="unit unit-content-distribute xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-  <a href="#" class="relative block cardfocus main-card">
+  <a href="{{include.url}}" class="relative block cardfocus main-card">
     <div class="embed embed-3by2">
-      <img class="img-flex embed-item" src="/images/placeholder-img.jpg" alt="image of portfolio piece">
+      <img class="img-flex embed-item" src="/images/{{include.image}}" alt="image of portfolio piece">
     </div>
-    <div class="pin-c push-none gutter card-content center-content-vertical zindex-1">
-      <h2 class="text-center zindex-2 push-0">the nite owl</h2>
-      <p class="text-center zindex-2 milli">BRANDING CONSULTATION, BRANDING, ILLUSTRATION and custom merchandise design for a <i class="keepcolor-text">dope</i> barbershop.</p>
+    <div class="absolute pin-c push-none gutter card-content center-content-vertical zindex-1">
+      <h2 class="text-center zindex-2 push-0">{{include.text}}</h2>
+      <p class="text-center zindex-2 milli">{{include.description}}</p>
     </div>
-  </div>
+  </a>
+</div>
