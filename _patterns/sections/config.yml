@@ -15,3 +15,26 @@ patterns:
     description: |
       This will also only ever be on my About page. It takes up half the width of the page. It will remain on the right hand side. All other sections are placed to the left of it, stacked as mentioned previously. Image has to be 1920x1920 in dimensions.
     background: "--color-primary"
+  project-fulltext:
+    title: "Full Text for Projects"
+    description: |
+      This will also only ever be on my About page. It takes up half the width of the page. It will remain on the right hand side. All other sections are placed to the left of it, stacked as mentioned previously. Image has to be 1920x1920 in dimensions.
+    fields:
+    - name: background-colour
+      type: string
+      example: "insert class name"
+    - name: text-colour
+      type: string
+      example: "insert class name"
+    - name: text
+      type: string
+      example: "Insert text for project"
+    - name: text-colour2
+      type: string
+      example: "Insert colour of text"
+    - name: secondary-text
+      type: string
+      example: "Insert secondary text for project"
+    - name: hidden-class
+      type: string
+      example: "hidden"

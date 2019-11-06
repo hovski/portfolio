@@ -32,9 +32,12 @@ patterns:
     - name: image
       type: string
       example: "placeholder-img.jpg"
-    - name: color
+    - name: background-color
       type: string
       example: "bkgcolor-1"
+    - name: text-color
+      type: string
+      example: "insert class"
   mockup-right:
     title: "Mockup Right"
     description: |
@@ -47,9 +50,12 @@ patterns:
     - name: image
       type: string
       example: "placeholder-img.jpg"
-    - name: color
+    - name: background-color
       type: string
       example: "bkgcolor-1"
+    - name: text-color
+      type: string
+      example: "insert class"
   fullimage-card:
     title: "Full Image card"
     description: |
@@ -66,9 +72,17 @@ patterns:
     description: |
       This card is 3by1 in height. So its more slender and lets me put my typeface banner or images of the dimension of 1920x640.
     fields:
-    - name: text
-      type: string
-      example: "Talk about the image on the right."
-    - name: image
+    - name: image1
       type: string
       example: "placeholder-img.jpg"
+    - name: image2
+      type: string
+      example: "placeholder-img.jpg"
+strip-card:
+  title: "Strip banner"
+  description: |
+    This card is 3by1 in height. So its more slender and lets me put my typeface banner or images of the dimension of 1920x640.
+  fields:
+  - name: image
+    type: string
+    example: "placeholder-img.jpg"

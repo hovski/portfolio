@@ -32,3 +32,35 @@ a.main-card:hover .card-content::before {
 .bkgcolor-1 {
   background-color: var(--color-primary-pair);
 }
+
+.bkgcolor-2 {
+  background-color: #EBBE21;
+}
+
+.text-color1 {
+  color: #333333;
+}
+
+.bkcolor-3 {
+  background-color: #141414;
+}
+
+.text-color2 {
+  color: var(--color-white);
+}
+
+.text-color3 {
+  color: var(--color-black);
+}
+
+.bkcolor-4 {
+  background-color: var(--color-black);
+}
+
+.bkcolor-5 {
+  background-color: #6C8EC8;
+}
+
+.bkcolor-6 {
+  background-color: #5E2545;
+}

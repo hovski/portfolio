@@ -10,3 +10,39 @@
 .darkgrey-text {
   color: var(--color-primary);
 }
+
+.darkgrey-background {
+  background-color: var(--color-primary);
+}
+
+.yellow-background {
+  background-color: var(--color-focus-page);
+}
+
+.white-text {
+  color: var(--color-white);
+}
+
+.lightgrey-background {
+  background-color: #C4C4C4;
+}
+
+.black-text {
+  color: var(--color-black);
+}
+
+.black-background {
+  background-color: var(--color-black);
+}
+
+.muteblue-background {
+  background-color: #D8DFF1;
+}
+
+.blue-text {
+  color: #4C70AD;
+}
+
+.dkblue-text {
+  color: #6C8FC9;
+}
