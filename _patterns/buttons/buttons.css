@@ -29,3 +29,9 @@
 .icon-btn img, .icon-btn svg {
   fill: var(--color-black);
 }
+
+.btn-back {
+  top: 3em;
+  right: 3em;
+  z-index: 2000;
+}
