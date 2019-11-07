@@ -62,3 +62,7 @@
 .red-background {
   background-color: #C8463C;
 }
+
+.greygrey-background {
+  background-color: var(--color-secondary);
+}

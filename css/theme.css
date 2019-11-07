@@ -83,10 +83,14 @@ del,
 ins,
 abbr,
 dfn,
-i,
 b,
 s,
 u {
   color: var(--color-primary-pair);
+  font-family: var(--font-primary);
+}
+
+i {
+  color: var(--color-primary);
   font-family: var(--font-primary);
 }
