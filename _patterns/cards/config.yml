@@ -78,11 +78,11 @@ patterns:
     - name: image2
       type: string
       example: "placeholder-img.jpg"
-strip-card:
-  title: "Strip banner"
-  description: |
-    This card is 3by1 in height. So its more slender and lets me put my typeface banner or images of the dimension of 1920x640.
-  fields:
-  - name: image
-    type: string
-    example: "placeholder-img.jpg"
+  strip-card:
+    title: "Strip banner"
+    description: |
+      This card is 3by1 in height. So its more slender and lets me put my typeface banner or images of the dimension of 1920x640.
+    fields:
+    - name: image
+      type: string
+      example: "placeholder-img.jpg"
