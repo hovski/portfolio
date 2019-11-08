@@ -6,3 +6,13 @@
   position: fixed;
   top: 0;
 }
+
+.logo {
+  transition: color .2s linear;
+}
+
+.logo i {
+  color: currentcolor;
+  width: 96px;
+  height: 56px;
+}
