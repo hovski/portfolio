@@ -17,6 +17,10 @@
 }
 
 .ltn-svg {
+  color: var(--color-primary-pair);
+}
+
+i {
   fill: var(--color-primary-pair);
 }
 

@@ -31,7 +31,12 @@
 }
 
 .btn-back {
-  top: 3em;
-  right: 3em;
+  position: fixed;
+  top: 2.75em;
+  right: 2.75em;
   z-index: 2000;
+}
+
+.btn:hover .icon-btn img, .btn:hover .icon-btn svg {
+  fill: #fff;
 }
