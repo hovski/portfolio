@@ -15,6 +15,7 @@
 
 html {
   font-family: var(--font-primary);
+  overflow-x: hidden;
 }
 
 h1 {
