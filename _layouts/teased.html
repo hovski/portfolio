@@ -25,9 +25,38 @@
     {% pattern header/header %}
   </div>
 
-  {{content}}
+  <div role="main" id="main" tabindex="0">
+    {{content}}
+  </div>
 
   {% pattern footers/footer %}
+  {% pattern sections/seo %}
+
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Teased: Tea",
+        "author": {
+          "@type": "Person",
+          "name": "Annie Pandolfi"
+        },
+        "image": "https://hov.ski/images/teased/mainbanner-teased.jpg",
+        "url": "https://hov.ski/teased/",
+        "dateCreated": "2019",
+        "dateModified": "2019",
+        "description": "This is a branding & ui/ux design for a made up tea company called Teased:Tea.",
+        "keywords": "Ui/Ux, Ui, Ux, Web Design, Typography, Layout, Branding, Concept Development, Packaging, Package Design",
+        "accountablePerson": "Annie Pandolfi",
+        "locationCreated": {
+          "@type": "AdministrativeArea",
+          "name": "Ottawa"
+        },
+        "educationalUse" : "assignment",
+        "copyrightHolder": "Annie Pandolfi",
+        "copyrightYear": "2019"
+      }
+    </script>
 
   <script src="/js/main.js"></script>
 

@@ -1,0 +1,35 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Annie Pandolfi <annie@hov.ski>
+Site: http://hov.ski
+GitHub: https://github.com/hovskii
+Location: Ottawa, Canada
+
+##Ottawa International Animation Festival & McMillian Team##
+
+Ask Thomas
+
+---
+
+# THANKS
+
+(This is the place where you put sources of things)
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Atom Text Editor
+- Github
+
+## Hosting
+
+- Netlify <https://www.netlify.com>
+- Github <https://github.com>
+- Hover <https://www.hover.com>
+- CloudFlare <https://cloudflare.com>
+- FastMail <https://www.fastmail.com>

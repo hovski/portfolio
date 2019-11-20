@@ -25,9 +25,38 @@
     {% pattern header/header %}
   </div>
 
-  {{content}}
+  <div role="main" id="main" tabindex="0">
+    {{content}}
+  </div>
 
   {% pattern footers/footer %}
+  {% pattern sections/seo %}
+
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Thought Process",
+        "author": {
+          "@type": "Person",
+          "name": "Annie Pandolfi"
+        },
+        "image": "https://hov.ski/images/thoughtprocess/mainbanner-thoughts.jpg",
+        "url": "https://hov.ski/thoughtprocess/",
+        "dateCreated": "2019",
+        "dateModified": "2019",
+        "description": "This is a project about my thought process on how I get from point A to B.",
+        "keywords": "Illustration, Design, Poster Design, Isometric Illustration, Layout, Concept Development, Package Design",
+        "accountablePerson": "Annie Pandolfi",
+        "locationCreated": {
+          "@type": "AdministrativeArea",
+          "name": "Ottawa"
+        },
+        "educationalUse" : "assignment",
+        "copyrightHolder": "Annie Pandolfi",
+        "copyrightYear": "2019"
+      }
+    </script>
 
   <script src="/js/main.js"></script>
 

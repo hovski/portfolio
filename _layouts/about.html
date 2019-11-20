@@ -25,10 +25,12 @@
     {% pattern header/header %}
   </div>
 
-  {{content}}
+  <div role="main" id="main" tabindex="0">
+    {{content}}
+  </div>
 
   {% pattern footers/footer %}
-
+  {% pattern sections/seo %}
   <script src="/js/main.js"></script>
 
 </body>

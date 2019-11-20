@@ -1,11 +1,13 @@
-<ul class="list-group-inline nav-links push-0 inline-block transparent">
-  <li class="pad-t-1-2 pad-b-1-2">
-    {% pattern buttons/basic text="WORK" url="/#work" %}
-  </li>
-  <li class="gutter-1-4 pad-t-1-2 pad-b-1-2">
-    {% pattern buttons/basic text="ABOUT" url="/about/" %}
-  </li>
-  <li class="pad-t-1-2 pad-b-1-2">
-    {% pattern buttons/basic text="CONTACT" url="mailto:annie@hov.ski?subject=feedback" %}
-  </li>
-</ul>
+<div class="nav-test">
+  <ul class="gutter nav-test nav-links push-0 transparent pin-rt" role="navigation" id="nav" tabindex="0">
+    <li class="pad-t-1-2 push-0">
+      {% pattern buttons/basic text="WORK" url="/#work" aria="Link to work" %}
+    </li>
+    <li class="pad-t-1-2 push-0">
+      {% pattern buttons/basic text="ABOUT" url="/about/" aria="Link to about" %}
+    </li>
+    <li class="pad-t-1-2 push-0">
+      {% pattern buttons/basic text="CONTACT" url="mailto:annie@hov.ski?subject=feedback" aria="Link to contact" %}
+    </li>
+  </ul>
+</div>

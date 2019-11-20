@@ -5,3 +5,34 @@
 .transparent {
   background-color: transparent;
 }
+
+.nav-test li {
+  list-style-type: none;
+  text-align: right;
+  text-decoration: none;
+}
+
+.nav-test ul > li::before {
+  list-style-type: none;
+  text-align: right;
+  text-decoration: none;
+}
+
+ul > li::before {
+  content: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .nav-test li {
+    text-align: left;
+    display: inline-block;
+    padding-left: .2em;
+    padding-right: .2em;
+  }
+
+  .nav-test {
+    display: inline-block;
+  }
+
+}

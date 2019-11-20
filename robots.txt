@@ -1,0 +1,6 @@
+# robotstxt.org
+
+Sitemap: http://hov.ski/sitemap.xml
+
+User-Agent: *
+Disallow:

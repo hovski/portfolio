@@ -25,9 +25,38 @@
     {% pattern header/header %}
   </div>
 
-  {{content}}
+  <div role="main" id="main" tabindex="0">
+    {{content}}
+  </div>
 
   {% pattern footers/footer %}
+  {% pattern sections/seo %}
+
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Bedrocan",
+        "author": {
+          "@type": "Person",
+          "name": "Annie Pandolfi"
+        },
+        "image": "https://hov.ski/images/bedrocan/mainbanner-bedrocan.jpg",
+        "url": "https://hov.ski/bedrocan/",
+        "dateCreated": "2019",
+        "dateModified": "2019",
+        "description": "This is a rebrand concept for great company called Bedrocan.",
+        "keywords": "Typography, Layout, Branding, Concept Development, Packaging, Packaging Design, Photography",
+        "accountablePerson": "Annie Pandolfi",
+        "locationCreated": {
+          "@type": "AdministrativeArea",
+          "name": "Ottawa"
+        },
+        "educationalUse" : "assignment",
+        "copyrightHolder": "Annie Pandolfi",
+        "copyrightYear": "2019"
+      }
+    </script>
 
   <script src="/js/main.js"></script>
 

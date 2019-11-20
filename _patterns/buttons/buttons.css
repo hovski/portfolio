@@ -32,11 +32,21 @@
 
 .btn-back {
   position: fixed;
-  top: 1.18em;
-  right: 2.75em;
+  top: 9.6em;
+  right: 1.7em;
   z-index: 2000;
 }
 
 .btn:hover .icon-btn img, .btn:hover .icon-btn svg {
   fill: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .btn-back {
+    top: 1.3em;
+    right: inherit;
+    left: 12em;
+  }
+
 }
