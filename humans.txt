@@ -7,10 +7,6 @@ Site: http://hov.ski
 GitHub: https://github.com/hovskii
 Location: Ottawa, Canada
 
-##Ottawa International Animation Festival & McMillian Team##
-
-Ask Thomas
-
 ---
 
 # THANKS
