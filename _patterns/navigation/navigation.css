@@ -29,6 +29,7 @@ ul > li::before {
     display: inline-block;
     padding-left: .2em;
     padding-right: .2em;
+    padding-top: 1.2em;
   }
 
   .nav-test {

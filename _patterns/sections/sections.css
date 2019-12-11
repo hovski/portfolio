@@ -66,3 +66,18 @@
 .greygrey-background {
   background-color: var(--color-secondary);
 }
+
+.face-img {
+  background-image: url("../images/insert-myself.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .face-img-hide {
+    display: none;
+  }
+
+}
